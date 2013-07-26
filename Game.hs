@@ -28,7 +28,7 @@ loop board = do
 
       end
     else do
-      putStrLn $ toOutputString board
+      putStrLn $ boardToOutputString board
       hFlush stdout
 
       move <- _makeMove board
