@@ -1,4 +1,4 @@
 # Ignoring all compiled binaries/libraries
-*.o
-*.hi
-*.exe
+.cabal-sandbox/
+cabal.sandbox.config
+dist/
